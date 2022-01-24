@@ -1,0 +1,332 @@
+/*--------------------------------------------------------------
+# header 
+------------------------------------------------------------*/
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 20px 0;
+}
+
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+#header .logo {
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#header .logo a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#header .logo a:hover {
+  text-decoration: none;
+}
+
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 12px 0;
+}
+
+/*--------------------------------------------------------------
+# nav bar
+--------------------------------------------------------------*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #000000;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #6d9773;
+}
+
+/*--------------------------------------------------------------
+# hero section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: #ffffff;
+  padding-top: 82px;
+}
+
+#hero h1 {
+  font-size: 40px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
+  color: #6d9773;
+  padding-left: 0px;
+}
+
+#hero a {
+  color: #6d9773;
+  border-bottom: #6d9773 2px solid;
+  text-decoration: none;
+}
+
+#hero a:hover {
+  color: #6d9773;
+  border-bottom: #6d9773 2px solid;
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# section (general)
+--------------------------------------------------------------*/
+section {
+  padding: 60px;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  font-size: 32px;
+  font-family: "Source Serif Pro", serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #5f687b;
+  position: relative;
+}
+
+/*--------------------------------------------------------------
+# buttons
+--------------------------------------------------------------*/
+.button {
+  border: 2px solid #97b59b;
+  background-color: #fff;
+  color: #97b59b;
+  padding: 5px 28px;
+  font-family: "Source Serif Pro", serif;
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 0px;
+  transition: ease-in-out 0.4s;
+}
+
+.button:hover {
+  background-color: #97b59b;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# featured
+--------------------------------------------------------------*/
+.card-title {
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 24px;
+  font-family: "Source Serif Pro", serif;
+  color: #5f687b;
+}
+
+.card-text {
+  line-height: 24px;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# about
+--------------------------------------------------------------*/
+.about {
+  background-color: #f4f4f4;
+}
+
+.about .section-title {
+  text-align: left;
+  padding-bottom: 0;
+}
+
+.about p {
+  line-height: 2;
+  font-family: "Roboto";
+}
+
+.img-fluid {
+  height: 50%;
+  margin: auto;
+  display: block;
+}
+
+.about i {
+  color: #97b59b;
+}
+
+.about .button {
+  background-color: #f4f4f4;
+}
+
+.about .button {
+  background-color: #f4f4f4;
+}
+
+.about .button:hover {
+  background-color: #97b59b;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+#footer {
+  font-size: 14px;
+  position: relative;
+}
+#footer .footer-top {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#footer .footer-top h3 {
+  font-size: 20px;
+  color: #5f687b;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#footer .footer-top p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0 0 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+}
+
+#footer .footer-top .social-links {
+  margin-top: 10px;
+}
+
+#footer .footer-top h2 {
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #eaecef;
+  color: #5f687b;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .footer-top .social-links a:hover {
+  background: #97b59b;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .footer-bottom {
+  border-top: 1px solid #d9dce2;
+  z-index: 2;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#footer .cheers {
+  float: right;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+#footer .copyright {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  #footer .copyright,
+  #footer .cheers {
+    float: none;
+    -moz-text-align-last: center;
+    text-align-last: center;
+  }
+}
+
+/*--------------------------------------------------------------
+# back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #97b59b;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #97b59b;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
