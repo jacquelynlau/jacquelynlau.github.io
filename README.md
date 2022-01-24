@@ -6,6 +6,7 @@ Personal Portfolio
 TO DO: 
 - add profile photo 
 - add icon to page tab
+- content for about me section
 - design individual project cases on Figma
 - add individual projects content
 - fix the scroll to for featured work 
