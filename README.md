@@ -8,7 +8,7 @@ TO DO:
 - add icon to page tab
 - design individual project cases on Figma
 - add individual projects content
-- fix the scroll to for work 
+- fix the scroll to for featured work 
 - link resume
 - link social media icons 
 - responsiveness 
