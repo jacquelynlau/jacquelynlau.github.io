@@ -4,7 +4,9 @@ Personal Portfolio
 ~ under construction ~
 
 TO DO: 
-- add profile photo to about me section
+- about me section
+    - content
+    - profile photo
 - add icon to page tab
 - content for about me section
 - design individual project cases on Figma
