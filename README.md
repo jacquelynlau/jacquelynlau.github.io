@@ -7,14 +7,15 @@ TO DO:
 - about me section
     - content
     - profile photo
+- nav bar
+    - link resume
 - add icon to page tab
-- content for about me section
-- design individual project cases on Figma
-- add individual projects content
 - ~~fix the scroll to for featured work~~
+- footer 
+    - link social media icons
+- figma 
+    - view all work page
+    - case study page
 - link resume
-- link social media icons 
-- check responsiveness 
-- design view all project cases on Figma
-- view all projects link to page 
+- responsiveness 
 - animate text when scrolling 
