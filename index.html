@@ -8,25 +8,23 @@
     <!-- website tab title -->
     <title>Jacquelyn Lau</title>
 
+    <!-- favicon -->
+    <!-- <link rel="icon" type="image/x-icon" href="/img/favicon.ico" /> -->
 
     <!-- link to css file -->
     <link href="style.css" rel="stylesheet" />
 
     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Source+Serif+Pro:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
 
     <!-- bootstrap -->
-    <link
-    href="assets/bootstrap/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-    <link
-      href="assets/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -35,14 +33,11 @@
         <h1 class="logo"><a href="index.html">Jacquelyn Lau</a></h1>
         <nav id="navbar" class="navbar">
           <ul>
-            <li>
+            <!-- <li>
               <a class="nav-link scrollto" href="#featured">Work</a>
-            </li>
+            </li> -->
             <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <!-- TO DO: link resume -->
-            <li><a class="nav-link scrollto" href="">Resume</a></li>
           </ul>
-          <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
         </nav>
       </div>
     </header>
@@ -54,16 +49,20 @@
           <div
             class="col-lg-10 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center"
           >
-            <h1><b>Jacquelyn Lau</b> is a frontend developer and UI designer based in Canada. Currently working @ TELUS in the <a href=https://www.telus.com/en/about/careers/graduate-technology-leadership-program target="_blank" >Graduate Technology Leadership Program</a></h1>
+            <h1>Hello! <span class="wave">👋</span></h1>
+            <br />
+            <h2>
+              I'm <b>Jacquelyn Lau</b>, a front-end software developer
+              passionate about building beautiful interfaces and experiences 👩🏻‍💻
+            </h2>
           </div>
         </div>
       </div>
     </section>
 
     <main id="main">
-    <!-- my featured work section -->
-   
-    <section >
+      <!-- my featured work section -->
+      <!-- <section>
       <hr>
         <div id="featured" class="container">
             <div class="section-title">
@@ -126,34 +125,60 @@
             </div>
           </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- about me section -->
-    <section id="about" class="about">
+      <!-- about me section -->
+      <section id="about" class="about">
         <div class="container">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
               <div class="icon-box">
                 <div class="section-title">
-                  <h2>Get to know me <i class="bi bi-stars"></i></h2>
+                  <h2>About me</h2>
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse dignissim quis magna id faucibus. Pellentesque eu
-                  tristique lacus, vitae scelerisque nisl. Etiam et mauris nisi.
-                  Vestibulum condimentum, arcu at vestibulum blandit, augue
-                  tortor accumsan velit, vitae sagittis felis ligula in risus.
-                  Nulla tincidunt ipsum ipsum, a aliquet ipsum consectetur ac.
-                  Maecenas eleifend dictum lorem, condimentum faucibus ante
-                  fermentum id. Donec malesuada ligula dui, ut viverra justo
-                  scelerisque nec.
+                  I’m currently a Software Developer at
+                  <span class="bold">TELUS Digital,</span> specializing in
+                  building large-scale applications for internal services.
+                  Previously, I worked on improving the navigation and search
+                  experience for <span class="bold">telus.com.</span
+                  ><br /><br />
+
+                  After graduating from the
+                  <span class="bold">University of Western Ontario</span> with a
+                  double major in Computer Science and Medical Science, I began
+                  my journey with TELUS in the
+                  <span class="bold"
+                    >Graduate Technology Leadership Program.</span
+                  >
+                  I rotated through 3 teams within the software development
+                  stream and led various extracurricular projects and events as
+                  a
+                  <span class="bold">Design Lead and Product Manager.</span
+                  ><br /><br />
+
+                  As a multifaced Software Developer, I thrive at the
+                  <span class="bold"
+                    >intersection of engineering and design</span
+                  >
+                  — leveraging my technical expertise and keen eye for
+                  aesthetics to craft beautiful, functional products.<br /><br />
+
+                  Outside of work, you can find me outdoors! I love solo
+                  travelling, backpacking, running, and climbing rocks! Check
+                  out some of the
+                  <span class="bold"> photos from my adventures.</span>
                 </p>
-                <button class="button">Resume</button>
+                <!-- <button class="button">Resume</button> -->
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
               <div class="icon-box">
-                <img src="assets/img/profile.jpeg" class="profile-img" alt="" />
+                <img
+                  src="assets/img/profile.jpg"
+                  class="profile-img"
+                  alt="woman with sunglasses"
+                />
               </div>
             </div>
           </div>
@@ -163,35 +188,40 @@
 
     <!-- footer -->
     <footer id="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="section-title">
-              <h2>Let's connect.</h2>
-            </div>
-            <div class="social-links">
-              <a href="" class="twitter"><i class="bx bi-twitter"></i></a>
-              <a href="" class="github"><i class="bx bi-github"></i></a>
-              <a
-                href="https://www.linkedin.com/in/jacquelynlau"
-                target="_blank"
-                class="linkedin"
-                ><i class="bi bi-linkedin"></i></a>
-            </div>
-            <p class="contact-email">jacquelynklau@gmail.com</p>
+      <div class="footer-top">
+        <div class="container">
+          <div class="section-title">
+            <h2>Wanna go grab matcha? Let's connect 🍵</h2>
+          </div>
+          <div class="social-links">
+            <a
+              target="_blank"
+              href="mailto:jacquelynklau@gmail.com"
+              class="email"
+              ><i class="bi bi-envelope-fill"></i
+            ></a>
+            <a href="" class="github"><i class="bx bi-github"></i></a>
+            <a
+              href="https://www.linkedin.com/in/jacquelynlau"
+              target="_blank"
+              class="linkedin"
+              ><i class="bi bi-linkedin"></i
+            ></a>
           </div>
         </div>
-  
-        <div class="container footer-bottom clearfix">
-          <div class="copyright">&copy; Jacquelyn Lau 2022</div>
-          <div class="cheers">Have a great day ✷</div>
-        </div>
-      </footer>
+      </div>
 
-     <!-- back to top button -->
-        <a
-        href="#"
-        class="back-to-top d-flex align-items-center justify-content-center"
-        ><i class="bi bi-arrow-up-short"></i
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">&copy; Jacquelyn Lau 2024</div>
+        <div class="cheers">Have a great day ✷</div>
+      </div>
+    </footer>
+
+    <!-- back to top button -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
     ></a>
 
     <!-- main js -->
