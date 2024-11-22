@@ -240,6 +240,12 @@ section {
   text-decoration: underline;
 }
 
+.about a:visited {
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
 .profile-img {
   height: 380px;
   width: 380px;
