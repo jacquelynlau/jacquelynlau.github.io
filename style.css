@@ -229,6 +229,17 @@ section {
   font-weight: 300;
 }
 
+.about a {
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+
+.about a:hover {
+  color: #97b59b;
+  text-decoration: underline;
+}
+
 .profile-img {
   height: 380px;
   width: 380px;
